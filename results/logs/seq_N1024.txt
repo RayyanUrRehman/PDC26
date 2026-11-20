@@ -1,0 +1,18 @@
+memory_estimate_mib=24.0 available_mib=3366.9
+cores=1 processes=1 threads=1 procs_available=3 max_threads_offered=3
+team_seen=1 last_row=1023 clock=omp_get_wtime
+t_scatter=0.000000 t_bcast=0.000000 t_compute=1.712864 t_gather=0.000000 t_total=1.712864
+gflops=1.253739 checksum=-5.979297e+02 max_abs_err=0.000000e+00
+csv,1024,1,1,0.000000,0.000000,1.712864,0.000000,1.712864,1.253739,0.000000e+00,-5.979297e+02,static,sequential,0
+memory_estimate_mib=24.0 available_mib=3376.8
+cores=1 processes=1 threads=1 procs_available=3 max_threads_offered=3
+team_seen=1 last_row=1023 clock=omp_get_wtime
+t_scatter=0.000000 t_bcast=0.000000 t_compute=2.011083 t_gather=0.000000 t_total=2.011083
+gflops=1.067824 checksum=-5.979297e+02 max_abs_err=0.000000e+00
+csv,1024,1,1,0.000000,0.000000,2.011083,0.000000,2.011083,1.067824,0.000000e+00,-5.979297e+02,static,sequential,0
+memory_estimate_mib=24.0 available_mib=3374.6
+cores=1 processes=1 threads=1 procs_available=3 max_threads_offered=3
+team_seen=1 last_row=1023 clock=omp_get_wtime
+t_scatter=0.000000 t_bcast=0.000000 t_compute=1.801503 t_gather=0.000000 t_total=1.801503
+gflops=1.192051 checksum=-5.979297e+02 max_abs_err=0.000000e+00
+csv,1024,1,1,0.000000,0.000000,1.801503,0.000000,1.801503,1.192051,0.000000e+00,-5.979297e+02,static,sequential,0

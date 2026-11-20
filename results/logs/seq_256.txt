@@ -1,0 +1,6 @@
+memory_estimate_mib=1.5 available_mib=3424.9
+cores=1 processes=1 threads=1 procs_available=3 max_threads_offered=3
+team_seen=1 last_row=255 clock=omp_get_wtime
+t_scatter=0.000000 t_bcast=0.000000 t_compute=0.013050 t_gather=0.000000 t_total=0.013050
+gflops=2.571309 checksum=-2.616885e+00 max_abs_err=0.000000e+00
+csv,256,1,1,0.000000,0.000000,0.013050,0.000000,0.013050,2.571309,0.000000e+00,-2.616885e+00,static,sequential,0

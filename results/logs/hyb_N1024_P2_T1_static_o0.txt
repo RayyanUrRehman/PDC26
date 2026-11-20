@@ -1,0 +1,39 @@
+using 2 cores as 2 processes x 1 threads (host nproc=3)
+memory_estimate_mib=40.0 available_mib=3369.3 same_host=1
+cores=2 processes=2 threads=1
+procs_available=1 max_threads_offered=1 mpi_thread_provided=1 schedule=static
+scatter_mode=scatter
+team_seen=1 last_row=511 clock=MPI_Wtime
+t_scatter=0.004762 t_bcast=0.010292 t_compute=1.410363 t_gather=0.005955 t_total=1.431372
+gflops=1.522646 checksum=-5.979297e+02 max_abs_err=0.000000e+00 sample_err=0.000000e+00 min_compute=1.410358
+checksum_reduction=-5.979297e+02 checksum_critical=-5.979297e+02 entry_max=5.776539e+01
+rank 0 rows=512 team=1 last_row=511 crit=-3.649980e+02 red=-3.649980e+02 max=5.365120e+01 first=-3.206162e+01 last=-3.199641e+02 large=7588 packed_row=-3.206162e+01 neighbor_time=1.410358 compute_time=1.410363
+rank 1 rows=512 team=1 last_row=511 crit=-2.329316e+02 red=-2.329316e+02 max=5.776539e+01 first=1.680261e+02 last=-3.634789e+01 large=7595 packed_row=1.680261e+02 neighbor_time=1.410363 compute_time=1.410358
+VERIFY PASS
+csv,1024,2,1,0.004762,0.010292,1.410363,0.005955,1.431372,1.522646,0.000000e+00,-5.979297e+02,static,hybrid,0
+using 2 cores as 2 processes x 1 threads (host nproc=3)
+memory_estimate_mib=40.0 available_mib=3407.1 same_host=1
+cores=2 processes=2 threads=1
+procs_available=1 max_threads_offered=1 mpi_thread_provided=1 schedule=static
+scatter_mode=scatter
+team_seen=1 last_row=511 clock=MPI_Wtime
+t_scatter=0.004819 t_bcast=0.016739 t_compute=1.336380 t_gather=0.005026 t_total=1.362964
+gflops=1.606941 checksum=-5.979297e+02 max_abs_err=0.000000e+00 sample_err=0.000000e+00 min_compute=1.336378
+checksum_reduction=-5.979297e+02 checksum_critical=-5.979297e+02 entry_max=5.776539e+01
+rank 0 rows=512 team=1 last_row=511 crit=-3.649980e+02 red=-3.649980e+02 max=5.365120e+01 first=-3.206162e+01 last=-3.199641e+02 large=7588 packed_row=-3.206162e+01 neighbor_time=1.336378 compute_time=1.336380
+rank 1 rows=512 team=1 last_row=511 crit=-2.329316e+02 red=-2.329316e+02 max=5.776539e+01 first=1.680261e+02 last=-3.634789e+01 large=7595 packed_row=1.680261e+02 neighbor_time=1.336380 compute_time=1.336378
+VERIFY PASS
+csv,1024,2,1,0.004819,0.016739,1.336380,0.005026,1.362964,1.606941,0.000000e+00,-5.979297e+02,static,hybrid,0
+using 2 cores as 2 processes x 1 threads (host nproc=3)
+memory_estimate_mib=40.0 available_mib=3407.2 same_host=1
+cores=2 processes=2 threads=1
+procs_available=1 max_threads_offered=1 mpi_thread_provided=1 schedule=static
+scatter_mode=scatter
+team_seen=1 last_row=511 clock=MPI_Wtime
+t_scatter=0.007910 t_bcast=0.010263 t_compute=1.351024 t_gather=0.004857 t_total=1.374055
+gflops=1.589523 checksum=-5.979297e+02 max_abs_err=0.000000e+00 sample_err=0.000000e+00 min_compute=1.351023
+checksum_reduction=-5.979297e+02 checksum_critical=-5.979297e+02 entry_max=5.776539e+01
+rank 0 rows=512 team=1 last_row=511 crit=-3.649980e+02 red=-3.649980e+02 max=5.365120e+01 first=-3.206162e+01 last=-3.199641e+02 large=7588 packed_row=-3.206162e+01 neighbor_time=1.351023 compute_time=1.351024
+rank 1 rows=512 team=1 last_row=511 crit=-2.329316e+02 red=-2.329316e+02 max=5.776539e+01 first=1.680261e+02 last=-3.634789e+01 large=7595 packed_row=1.680261e+02 neighbor_time=1.351024 compute_time=1.351023
+VERIFY PASS
+csv,1024,2,1,0.007910,0.010263,1.351024,0.004857,1.374055,1.589523,0.000000e+00,-5.979297e+02,static,hybrid,0

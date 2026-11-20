@@ -1,0 +1,6 @@
+sequential
+hybrid
+*.o
+.venv/
+__pycache__/
+*.pyc

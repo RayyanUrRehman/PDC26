@@ -1,0 +1,36 @@
+using 1 cores as 1 processes x 1 threads (host nproc=3)
+memory_estimate_mib=24.0 available_mib=3361.7 same_host=1
+cores=1 processes=1 threads=1
+procs_available=1 max_threads_offered=1 mpi_thread_provided=1 schedule=static
+scatter_mode=scatter
+team_seen=1 last_row=1023 clock=MPI_Wtime
+t_scatter=0.000003 t_bcast=0.000001 t_compute=1.766526 t_gather=0.000002 t_total=1.766531
+gflops=1.215654 checksum=-5.979297e+02 max_abs_err=0.000000e+00 sample_err=0.000000e+00 min_compute=1.766526
+checksum_reduction=-5.979297e+02 checksum_critical=-5.979297e+02 entry_max=5.776539e+01
+rank 0 rows=1024 team=1 last_row=1023 crit=-5.979297e+02 red=-5.979297e+02 max=5.776539e+01 first=-3.206162e+01 last=-3.634789e+01 large=15183 packed_row=-3.206162e+01 neighbor_time=1.766526 compute_time=1.766526
+VERIFY PASS
+csv,1024,1,1,0.000003,0.000001,1.766526,0.000002,1.766531,1.215654,0.000000e+00,-5.979297e+02,static,hybrid,0
+using 1 cores as 1 processes x 1 threads (host nproc=3)
+memory_estimate_mib=24.0 available_mib=3403.3 same_host=1
+cores=1 processes=1 threads=1
+procs_available=1 max_threads_offered=1 mpi_thread_provided=1 schedule=static
+scatter_mode=scatter
+team_seen=1 last_row=1023 clock=MPI_Wtime
+t_scatter=0.000002 t_bcast=0.000001 t_compute=2.358041 t_gather=0.000003 t_total=2.358047
+gflops=0.910707 checksum=-5.979297e+02 max_abs_err=0.000000e+00 sample_err=0.000000e+00 min_compute=2.358041
+checksum_reduction=-5.979297e+02 checksum_critical=-5.979297e+02 entry_max=5.776539e+01
+rank 0 rows=1024 team=1 last_row=1023 crit=-5.979297e+02 red=-5.979297e+02 max=5.776539e+01 first=-3.206162e+01 last=-3.634789e+01 large=15183 packed_row=-3.206162e+01 neighbor_time=2.358041 compute_time=2.358041
+VERIFY PASS
+csv,1024,1,1,0.000002,0.000001,2.358041,0.000003,2.358047,0.910707,0.000000e+00,-5.979297e+02,static,hybrid,0
+using 1 cores as 1 processes x 1 threads (host nproc=3)
+memory_estimate_mib=24.0 available_mib=3397.4 same_host=1
+cores=1 processes=1 threads=1
+procs_available=1 max_threads_offered=1 mpi_thread_provided=1 schedule=static
+scatter_mode=scatter
+team_seen=1 last_row=1023 clock=MPI_Wtime
+t_scatter=0.000003 t_bcast=0.000001 t_compute=1.779303 t_gather=0.000002 t_total=1.779309
+gflops=1.206924 checksum=-5.979297e+02 max_abs_err=0.000000e+00 sample_err=0.000000e+00 min_compute=1.779303
+checksum_reduction=-5.979297e+02 checksum_critical=-5.979297e+02 entry_max=5.776539e+01
+rank 0 rows=1024 team=1 last_row=1023 crit=-5.979297e+02 red=-5.979297e+02 max=5.776539e+01 first=-3.206162e+01 last=-3.634789e+01 large=15183 packed_row=-3.206162e+01 neighbor_time=1.779303 compute_time=1.779303
+VERIFY PASS
+csv,1024,1,1,0.000003,0.000001,1.779303,0.000002,1.779309,1.206924,0.000000e+00,-5.979297e+02,static,hybrid,0

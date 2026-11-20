@@ -1,0 +1,13 @@
+using 4 cores as 2 processes x 2 threads (host nproc=3)
+memory_estimate_mib=12.0 available_mib=3420.2 same_host=1
+cores=4 processes=2 threads=2
+procs_available=3 max_threads_offered=2 mpi_thread_provided=1 schedule=static
+scatter_mode=scatter
+team_seen=2 last_row=255 clock=MPI_Wtime
+t_scatter=0.006133 t_bcast=0.008065 t_compute=0.120556 t_gather=0.016047 t_total=0.150801
+gflops=2.226651 checksum=1.156002e+02 max_abs_err=0.000000e+00 sample_err=0.000000e+00 min_compute=0.120556
+checksum_reduction=1.156002e+02 checksum_critical=1.156002e+02 entry_max=3.352180e+01
+rank 0 rows=256 team=2 last_row=255 crit=7.803572e+01 red=7.803572e+01 max=3.226196e+01 first=-1.865708e+02 last=-7.134954e+01 large=1858 packed_row=-1.865708e+02 neighbor_time=0.127989 compute_time=0.120556
+rank 1 rows=256 team=2 last_row=255 crit=3.756452e+01 red=3.756452e+01 max=3.352180e+01 first=4.176221e+02 last=-1.404568e+01 large=1830 packed_row=4.176221e+02 neighbor_time=0.120556 compute_time=0.127989
+VERIFY PASS
+csv,512,2,2,0.006133,0.008065,0.120556,0.016047,0.150801,2.226651,0.000000e+00,1.156002e+02,static,hybrid,1

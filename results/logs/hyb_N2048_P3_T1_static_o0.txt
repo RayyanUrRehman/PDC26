@@ -1,0 +1,14 @@
+using 3 cores as 3 processes x 1 threads (host nproc=3)
+memory_estimate_mib=202.7 available_mib=3395.5 same_host=1
+cores=3 processes=3 threads=1
+procs_available=1 max_threads_offered=1 mpi_thread_provided=1 schedule=static
+scatter_mode=scatterv
+team_seen=1 last_row=682 clock=MPI_Wtime
+t_scatter=0.053546 t_bcast=0.069201 t_compute=9.965444 t_gather=0.075232 t_total=10.163424
+gflops=1.723944 checksum=-1.127819e+03 max_abs_err=0.000000e+00 sample_err=0.000000e+00 min_compute=9.965444
+checksum_reduction=-1.127819e+03 checksum_critical=-1.127819e+03 entry_max=8.145043e+01
+rank 0 rows=683 team=1 last_row=682 crit=-4.163005e+02 red=-4.163005e+02 max=7.604303e+01 first=-3.556462e+02 last=-6.421327e+02 large=20684 packed_row=-3.556462e+02 neighbor_time=9.965456 compute_time=9.965444
+rank 1 rows=683 team=1 last_row=682 crit=-6.547078e+02 red=-6.547078e+02 max=8.145043e+01 first=1.362190e+03 last=4.489209e+02 large=20713 packed_row=1.362190e+03 neighbor_time=9.965444 compute_time=9.968483
+rank 2 rows=682 team=1 last_row=681 crit=-5.681068e+01 red=-5.681068e+01 max=7.470080e+01 first=8.729442e+01 last=-3.532269e+00 large=20602 packed_row=8.729442e+01 neighbor_time=9.968483 compute_time=9.965456
+VERIFY PASS
+csv,2048,3,1,0.053546,0.069201,9.965444,0.075232,10.163424,1.723944,0.000000e+00,-1.127819e+03,static,hybrid,0
